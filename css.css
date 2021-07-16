@@ -1,0 +1,134 @@
+/* formatting bison population table*/
+table, th, td {
+    border: 1px solid black;
+    text-align:center;
+    border-collapse: collapse;
+  }
+
+/* formatting bison population table within the website box*/
+table{
+    width: 37%;
+    /*float: right;*/
+    float: right;
+    margin-right: 0px;
+    margin-left: auto;
+    margin-top: 125px;
+}
+
+/*Formating table caption*/
+caption{
+    font-style: italic;
+    font-size: 75%;
+}
+
+/*Formating the header of the web page*/
+h1{
+    border: 2px solid;
+    border-color: skyblue;
+    font-size:500%;
+    text-align: center;
+    color:rgb(54, 83, 214);
+    margin-bottom: 10px;
+
+}
+
+/*Formatting the web page as a whole so it doesn't take up the whole page*/
+body{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 940px;
+    min-width: 720px;
+}
+
+/*Formatting the individual images*/
+img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    /*box-align: bottom;*/
+}
+
+/*Making the images appear side by side*/
+.row {
+    display: flex;
+    
+  }
+  
+.column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+/*Formationg description heading*/
+h2{
+
+    color:rgb(54, 83, 214);
+}
+
+/*Formatiing history heading*/
+h3{
+
+    color:rgb(54, 83, 214);
+}
+
+/*Making the width of the descrition 60% of the page*/
+#description{
+     /*float: left;*/
+     /*margin-top: 10px;*/
+    width: 60%;
+}
+
+/*Making the width of the history 60% of the page*/
+#history{
+    /*float: left;*/
+    width: 60%;
+}
+
+/*Foramating the box that the links are in at the bottom of the page*/
+#navigation{
+    width: 800px;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: skyblue;
+}
+
+/*Fornatting the boxes each individual link is placed in*/
+#navigation li{
+    display: inline;
+    /*padding: 15px;*/
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+/*Formating tha individaul links*/
+a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 6px;
+    padding-right: 18px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+}
+
+/*Links will turn blue when hovered over*/
+a:hover{
+    color: blue;
+}
+
+/*Additional Reading heading being formatted*/
+h4{
+    color:rgb(54, 83, 214);
+    text-align: center;
+    font-size:130%;
+}

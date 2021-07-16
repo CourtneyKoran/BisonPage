@@ -1,0 +1,155 @@
+<!--
+File: index.html
+GUI Assignment: Creating Your First Web Page
+Courtney Koran, UMass Lowell Computer Science, Courtney_Koran@student.uml.edu
+Copyright (c) 2021 by Courtney. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by CK on July 16, 2021.
+This is my first web page. It contains information about the american bison. 
+It has a description of bison and a short history of bison in the united states.
+My web page also contains a table of bison growth in the United States within the 
+early 20th century. Additional reading/resources on yellowstone bison are included
+using links at the bottom of my page. Three bison pictures are also included on 
+my web page.
+-->
+<!--using html-->
+<!DOCTYPE html>
+<!--language is english-->
+<html lang="en">
+<!--start of document header-->
+  <head>
+    <meta charset="utf-8">
+    <!--page title-->
+    <title>The American Bison</title>
+    <!--linking external CSS document-->
+    <link rel="stylesheet" href="css.css">
+    <!--if wanted to link javascript script-->
+    <script src="script.js"></script>
+  </head>
+
+  <!--start body of website-->
+  <body>
+    <!-- page content -->
+    <h1>The American Bison</h1>
+
+   <!-- Table displaying bison poulation growth in the early 20th century-->
+    <table >
+         <!--table headings-->
+        <tr>
+          <th>Year</th>
+          <th>Population</th>
+        </tr>
+        <!--table cells-->
+        <tr>
+          <td>1902</td>
+          <td>44</td>
+        </tr>
+        <tr>
+            <td>1905</td>
+            <td>74</td>
+          </tr>
+          <tr>
+            <td>1907</td>
+            <td>84</td>
+          </tr>
+          <tr>
+            <td>1909</td>
+            <td>118</td>
+          </tr>
+          <tr>
+            <td>1912</td>
+            <td>192</td>
+          </tr>
+          <tr>
+            <td>1915</td>
+            <td>270</td>
+          </tr>
+          <tr>
+            <td>1917</td>
+            <td>397</td>
+          </tr>
+          <tr>
+            <td>1922</td>
+            <td>647</td>
+          </tr>
+          <tr>
+            <td>1923</td>
+            <td>748</td>
+          </tr>
+          <tr>
+            <td>1926</td>
+            <td>931</td>
+          </tr>
+          <tr>
+            <td>1929</td>
+            <td>1109</td>
+          </tr>
+          <!-- table caption-->
+          <caption>American bison population in Yellowstone during the early 20th century</caption>
+      </table>
+
+      <!--Description heading and paragraph placed in Div for formatting in CSSs-->
+      <div id="description"> 
+          <h2>Description</h2>
+        <p>Bison are the largest land-dwelling mammals in North America standing between 5 and 6.5 feet in height and weighing close 
+            to a ton. Bison are covered in dense dark brown hair with short curved horns and a protruding strong shoulder hump. 
+            Bison are excellent swimmers and extremely fast. They can run at speeds up to 35 miles per hour. Bison also have great
+            hearing, vision, and sense of smell. Bison are very social animals and form herds of up to 1,000 during mating season.
+            Bison feed on plains grasses, herbs, shrubs, and twigs. 
+        </p>
+    </div>
+
+     <!-- Bison History heading and pargraph placed in Div for formating in CSS-->
+    <div id="history">
+        <h3>History in America</h3>
+    <p>
+        The American bison once roamed across most of North America in numbers that reached into the tens of millions.
+        Bison were a critical part of Native American culture and provided tribes with their main food source. As European 
+        Americans settled the west in the 1800s, the U.S. Army began a campaign to remove Native American tribes by taking away their main food source
+        and killing off the native bison. Hundreds of thousands of bison were killed by U.S.troops and market hunters. By the late 1880s, the great herds of bison that
+        once dominated the landscape were nearly gone. In 1902, Yellowstone began it's efforts to recover the bison population. The Table to the right
+        shows the growth in the Yellowstone bison popluation starting in 1902.
+    </p>
+    </div>
+    
+    <!-- Three pictures (using links not file path) using div to seperate the pictures so they can be placed in a row using CSS-->
+    <!--<div class="row">
+        <div class="column">
+            <img id="pic1" src="https://www.nps.gov/yell/learn/nature/images/31eadfec85_k_5410277_2.jpg" alt="bison1">
+        </div>
+        <div class="column">
+          <img id="pic2" src="https://www.yellowstonepark.com/wp-content/uploads/2017/05/bison-ys-mountainssky_adobe_612.jpg" alt="bison2" >
+        </div>
+        <div class="column">
+          <img id="pic3" src="https://www.yellowstonepark.com/wp-content/uploads/2017/05/bison-ys-winter_tonywilhelms_612.jpg?width=730" alt="bison3" >
+        </div>
+      </div>
+    -->
+
+     <!-- Three pictures(saved in Images HW1 folder) using div to seperate the pictures so they can be placed in a row using CSS-->
+    <div class="row">
+        <div class="column">
+            <img id="pic1" src="ImagesHW1/Bison1.jpg" alt="bison1">
+        </div>
+        <div class="column">
+          <img id="pic2" src="ImagesHW1/Bison2.jpg" alt="bison2" >
+        </div>
+        <div class="column">
+          <img id="pic3" src="ImagesHW1/Bison3.jpg" alt="bison3" >
+        </div>
+      </div>
+
+      <!--Additional reading heading-->
+      <h4>Additional Reading</h4>
+
+      <!-- footer containg navigation links for additional reading-->
+        <f>
+        <ul id="navigation">
+            <li><a href="https://www.nps.gov/yell/learn/management/bison-history.htm">History of Bison Management</a></li>
+            <li><a href="https://www.nps.gov/yell/learn/nature/bison.htm">Bison Ecology</a></li>
+            <li><a href="https://www.youtube.com/watch?v=L4eOhuLDfeU">Bison Fight for Mating Rights</a></li>
+        </ul>
+    </f>
+
+  </body>
+</html>
